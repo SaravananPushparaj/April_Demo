@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <parameter name="deviceID" value="d2"/>
+  <test name="Testd1(failed)">
+    <parameter name="deviceID" value="d1"/>
+    <classes>
+      <class name="testpar.NewTest">
+        <methods>
+          <include name="startTime"/>
+          <include name="startTime"/>
+          <include name="f"/>
+        </methods>
+      </class> <!-- testpar.NewTest -->
+    </classes>
+  </test> <!-- Testd1(failed) -->
+  <test name="Testd2(failed)">
+    <parameter name="deviceID" value="d2"/>
+    <classes>
+      <class name="testpar.NewTest">
+        <methods>
+          <include name="startTime"/>
+          <include name="startTime"/>
+          <include name="f"/>
+        </methods>
+      </class> <!-- testpar.NewTest -->
+    </classes>
+  </test> <!-- Testd2(failed) -->
+</suite> <!-- Failed suite [Suite] -->

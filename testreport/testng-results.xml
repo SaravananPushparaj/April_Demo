@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="94739" started-at="2016-05-21T07:14:44Z" finished-at="2016-05-21T07:16:18Z">
+    <groups>
+    </groups>
+    <test name="Testd1" duration-ms="93491" started-at="2016-05-21T07:14:44Z" finished-at="2016-05-21T07:16:17Z">
+      <class name="Day8.mort_calc_grid">
+        <test-method status="PASS" signature="Initialize_app(java.lang.String)[pri:0, instance:Day8.mort_calc_grid@1efbd816]" name="Initialize_app" is-config="true" duration-ms="65490" started-at="2016-05-21T12:44:44Z" finished-at="2016-05-21T12:45:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[d1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Initialize_app -->
+        <test-method status="PASS" signature="getEMI()[pri:0, instance:Day8.mort_calc_grid@1efbd816]" name="getEMI" duration-ms="27994" started-at="2016-05-21T12:45:49Z" finished-at="2016-05-21T12:46:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getEMI -->
+      </class> <!-- Day8.mort_calc_grid -->
+    </test> <!-- Testd1 -->
+    <test name="Testd2" duration-ms="94739" started-at="2016-05-21T07:14:44Z" finished-at="2016-05-21T07:16:18Z">
+      <class name="Day8.mort_calc_grid">
+        <test-method status="PASS" signature="Initialize_app(java.lang.String)[pri:0, instance:Day8.mort_calc_grid@7dc7cbad]" name="Initialize_app" is-config="true" duration-ms="64305" started-at="2016-05-21T12:44:44Z" finished-at="2016-05-21T12:45:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[d2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Initialize_app -->
+        <test-method status="PASS" signature="getEMI()[pri:0, instance:Day8.mort_calc_grid@7dc7cbad]" name="getEMI" duration-ms="30426" started-at="2016-05-21T12:45:48Z" finished-at="2016-05-21T12:46:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getEMI -->
+      </class> <!-- Day8.mort_calc_grid -->
+    </test> <!-- Testd2 -->
+  </suite> <!-- Suite -->
+</testng-results>
