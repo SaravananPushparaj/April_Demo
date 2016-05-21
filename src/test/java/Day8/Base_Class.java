@@ -24,32 +24,32 @@ public class Base_Class {
 	
 	public void Initialize_app(String deviceID) throws ExecuteException, IOException, InterruptedException
 	{
-CommandLine command= new CommandLine("D:\\batch_file_execution\\hub.bat");
+// CommandLine command= new CommandLine("D:\\batch_file_execution\\hub.bat");
 			
 			
-		DefaultExecuteResultHandler ResultHandler=new DefaultExecuteResultHandler();
-		DefaultExecutor executor=new DefaultExecutor();
-		executor.execute(command, ResultHandler);
+// 		DefaultExecuteResultHandler ResultHandler=new DefaultExecuteResultHandler();
+// 		DefaultExecutor executor=new DefaultExecutor();
+// 		executor.execute(command, ResultHandler);
 		
-		Thread.sleep(18000);
+// 		Thread.sleep(18000);
 		
 		
-		CommandLine command1= new CommandLine("D:\\batch_file_execution\\d1.bat");
+// 		CommandLine command1= new CommandLine("D:\\batch_file_execution\\d1.bat");
 					
-		DefaultExecuteResultHandler ResultHandler1=new DefaultExecuteResultHandler();
-		DefaultExecutor executor1=new DefaultExecutor();
-		executor1.execute(command1, ResultHandler1);
+// 		DefaultExecuteResultHandler ResultHandler1=new DefaultExecuteResultHandler();
+// 		DefaultExecutor executor1=new DefaultExecutor();
+// 		executor1.execute(command1, ResultHandler1);
 		
-		Thread.sleep(18000);
+// 		Thread.sleep(18000);
 		
 		
-		CommandLine command2= new CommandLine("D:\\batch_file_execution\\d2.bat");
+// 		CommandLine command2= new CommandLine("D:\\batch_file_execution\\d2.bat");
 		
-		DefaultExecuteResultHandler ResultHandler2=new DefaultExecuteResultHandler();
-		DefaultExecutor executor2=new DefaultExecutor();
-		executor2.execute(command2, ResultHandler2);
+// 		DefaultExecuteResultHandler ResultHandler2=new DefaultExecuteResultHandler();
+// 		DefaultExecutor executor2=new DefaultExecutor();
+// 		executor2.execute(command2, ResultHandler2);
 		
-		Thread.sleep(18000);
+// 		Thread.sleep(18000);
 		
 		
 		DesiredCapabilities capabilities= new DesiredCapabilities();
